@@ -9,12 +9,12 @@ public class Test {
 		
 		amigoInvisible test = new amigoInvisible();
 		
-		
+		/*----------Agregar Participantes----------*/
 		test.agregarPersona("Juan");
 		test.agregarPersona("Ana");
 		test.agregarPersona("Franco");
 		test.agregarPersona("Agustina");
-		
+		/*-----------------------------------------*/
 		test.asignarAmigos();
 		
 		System.out.println(
